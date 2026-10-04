@@ -12,7 +12,7 @@ while(i<=len(listanr)-1):
     numar = listanr[i]
     i+=1
     solver = recaptchaV2Proxyless()
-    solver.set_key("37bca02c35a7f55e10960dee93ebe006")  # API Key anticaptcha
+    solver.set_key("YOUR_ANTICAPTCHA_API_KEY")  # API Key anticaptcha
     solver.set_website_url("https://dgpci.mai.gov.ro/drpciv-forms/plate-number")
     solver.set_website_key("6Le9UwsUAAAAAGR_XRglppXV_ZTRjQOcPPyz7dxA")  # sitekey extras
     
